@@ -99,7 +99,7 @@ My goal is to evolve into an engineer who can contribute to large-scale, high-im
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="www.linkedin.com/in/anugrah-p-412-" target="_blank">
+  <a href="www.linkedin.com/in/anugrah-p-412-/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Anugrah_P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
