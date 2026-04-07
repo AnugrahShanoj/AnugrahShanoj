@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3500&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+systems+that+go+live;Node.js+%7C+Express.js+%7C+MongoDB+%7C+AWS+EC2;REST+APIs+%7C+JWT+%7C+OAuth+2.0+%7C+Socket.io;Production-Deployed+Full-Stack+Applications" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3500&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+systems+that+go+live;Node.js+%7C+Express.js+%7C+MongoDB+%7C+AWS+EC2;REST+APIs+%7C+JWT+%7C+OAuth+2.0+%7C+Socket.io;Cloudflare+CDN+%7C+Dual-Layer+SSL+%7C+DDoS+Protection;Production-Deployed+Full-Stack+Applications" />
 </p>
 
 ---
@@ -13,7 +13,9 @@
 
 I'm a **Software Developer** who builds systems that are secure, scalable, and production-ready.
 
-I've independently designed, built, and deployed full-stack applications to live production environments on **AWS EC2** — handling everything from architecture and API design to cloud deployment with Nginx, SSL/HTTPS, and PM2.
+I've designed, built, and deployed full-stack applications to live production environments on **AWS EC2** — handling everything from architecture and API design to cloud infrastructure with Nginx, Cloudflare CDN, dual-layer SSL, DDoS protection, and PM2.
+
+I run **two completely isolated production applications on a single EC2 instance** — separate Nginx virtual hosts, independent PM2 processes, dedicated SSL certificates, and Cloudflare-proxied DNS — the kind of infrastructure management typically seen in small to mid-sized startups.
 
 My work involves real-world integrations — **Razorpay payments, Google OAuth 2.0, Amazon SES, Socket.io real-time systems** — not just CRUD operations.
 
@@ -44,8 +46,9 @@ My work involves real-world integrations — **Razorpay payments, Google OAuth 2
 
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
-![SSL/HTTPS](https://img.shields.io/badge/SSL%2FHTTPS-003A70?style=flat-square&logo=letsencrypt&logoColor=white)
+![Certbot SSL](https://img.shields.io/badge/Certbot_SSL-003A70?style=flat-square&logo=letsencrypt&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
@@ -70,12 +73,12 @@ My work involves real-world integrations — **Razorpay payments, Google OAuth 2
 
 ### 🔐 NeoAegis — Personal Safety & Emergency Response Platform
 
-> *A production-grade full-stack safety platform — independently architected, secured, and deployed to AWS EC2.*
+> *A production-grade full-stack safety platform — architected, secured, and deployed to AWS EC2 with enterprise-level infrastructure.*
 
 <table>
   <tr>
     <td><b>🌐 Deployment</b></td>
-    <td>AWS EC2 · Nginx Reverse Proxy · SSL/HTTPS via Certbot · PM2 · Custom Domain · Zero-Downtime Restarts</td>
+    <td>AWS EC2 · Nginx Reverse Proxy · PM2 · Dual-Layer SSL (Cloudflare Edge + Certbot Origin, Full Strict Mode) · EC2 IP hidden behind Cloudflare CDN · Active DDoS Mitigation · Custom Domain</td>
   </tr>
   <tr>
     <td><b>🔐 Authentication</b></td>
@@ -99,11 +102,11 @@ My work involves real-world integrations — **Razorpay payments, Google OAuth 2
   </tr>
   <tr>
     <td><b>📡 API Surface</b></td>
-    <td>20+ RESTful endpoints across authentication, SOS alerts, emergency contacts, and payment workflows</td>
+    <td>20+ RESTful endpoints across SOS alerts, emergency contacts, and payment workflows</td>
   </tr>
   <tr>
     <td><b>🛠️ Stack</b></td>
-    <td>React · Node.js · Express.js · MongoDB Atlas · Socket.io · AWS EC2 · Nginx · Razorpay · Google OAuth</td>
+    <td>React · Node.js · Express.js · MongoDB Atlas · Socket.io · AWS EC2 · Nginx · Cloudflare · Razorpay · Google OAuth</td>
   </tr>
 </table>
 
@@ -124,13 +127,15 @@ Every project I take on is a step toward becoming an engineer who can own, shape
 
 ## Connect With Me
 
+<p align="center">Feel free to connect, collaborate, or just say hello — I'm always open to meaningful conversations and new opportunities.</p>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/anugrahshanoj/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Anugrah%20P-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=white" alt="LinkedIn" height="35"/>
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <a href="mailto:anugrahpchandrodayam@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-anugrahpchandrodayam%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="35"/>
   </a>
 </p>
 
